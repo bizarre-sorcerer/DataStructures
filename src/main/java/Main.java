@@ -1,14 +1,18 @@
-import datastructures.list.impl.MyArrayList;
+import datastructures.collections.stack.MyStack;
 
 public class Main {
 
     public static void main(String[] args) {
-        MyArrayList<Integer> numbers2 = new MyArrayList<>();
-        numbers2.add(1);
-        numbers2.add(2);
-        numbers2.add(3);
-        numbers2.add(4);
+        MyStack<Integer> stack = new MyStack<>();
 
-        numbers2.forEach(System.out::println);
+        stack.push(1);
+        stack.push(2);
+        stack.push(3);
+
+        stack.pop();
+        stack.pop();
+        stack.pop();
+
+        System.out.println(stack);
     }
 }

@@ -1,6 +1,6 @@
-package datastructures.list.impl;
+package datastructures.collections.list.impl;
 
-import datastructures.list.MyList;
+import datastructures.collections.list.MyList;
 
 import java.util.AbstractList;
 
